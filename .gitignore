@@ -1,0 +1,14 @@
+# generated
+build/
+output/
+__pycache__/
+*.pyc
+node_modules/
+
+# heavy media (keep the dubbing out of git unless you really want it versioned)
+content/*.wav
+content/*.mp3
+content/*.m4a
+
+.DS_Store
+Thumbs.db

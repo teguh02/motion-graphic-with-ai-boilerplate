@@ -1,0 +1,51 @@
+{
+  "title": "Template Motion Graphic",
+  "output": "Template_Motion_Graphic_Reels.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "outro": 3.6,
+
+  "language": "id",
+  "whisper_model": "medium",
+  "tempo": 1.0,
+
+  "audio": {
+    "voice": "content/dubing.wav",
+    "sfx_level": 0.2,
+    "bed": true,
+    "bed_level": 0.035,
+    "loudness_lufs": -14
+  },
+
+  "render": {
+    "workers": 4,
+    "crf": 17,
+    "jpeg_quality": 93,
+    "port": 8765
+  },
+
+  "brand": {
+    "name": "Brand",
+    "tag": "MOTION GRAPHIC",
+    "credit": "Video By <b>Nama Kamu</b>"
+  },
+
+  "ticker": ["naskah", "dubbing", "timestamp kata", "adegan", "subtitle karaoke", "render"],
+
+  "subtitles": {
+    "max_chars": 24,
+    "accent": ["boilerplate", "agen", "naskah", "dubbing", "subtitle", "karaoke", "render", "vertikal"],
+    "code": [],
+    "rename": {}
+  },
+
+  "safe_zone": {
+    "top": 200,
+    "bottom": 420,
+    "left": 40,
+    "right": 40,
+    "right_low": 130,
+    "low_y": 1000
+  }
+}

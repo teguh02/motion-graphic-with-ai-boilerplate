@@ -1,0 +1,7 @@
+Halo! Ini adalah boilerplate motion graphic yang siap dipakai oleh agen AI mana pun.
+
+Cukup tulis naskah, buat dubbing, lalu setiap ilustrasi akan muncul tepat pada kata yang diucapkan.
+
+Sudah ada subtitle karaoke, efek suara sintetis, dan render otomatis ke video vertikal.
+
+Selamat berkarya!

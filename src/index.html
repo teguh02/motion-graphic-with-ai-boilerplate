@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Motion Graphic</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="frame">
+  <div id="bg">
+    <div id="bgGrad"></div>
+    <div class="glow" data-mood="accent"></div>
+    <div class="glow" data-mood="warm"></div>
+    <div class="glow" data-mood="ink"></div>
+    <div id="dots"></div>
+    <div id="noise"></div>
+  </div>
+
+  <header id="header">
+    <span class="logo" id="brandMark"></span>
+    <span class="word" id="brandName"></span>
+    <span class="tag" id="brandTag"></span>
+  </header>
+  <div id="ticker" data-safe-ignore><div id="tickerTrack"></div></div>
+  <div id="progress"></div>
+
+  <main id="stage"></main>
+  <section id="subs" aria-live="polite"></section>
+  <div id="flash"></div>
+</div>
+
+<script src="engine.js"></script>
+<script src="subtitles.js"></script>
+<script src="components.js"></script>
+<!-- scenes: one file per scene, in playback order -->
+<script src="scenes/01-hook.js"></script>
+<script src="scenes/02-alur.js"></script>
+<script src="scenes/03-fitur.js"></script>
+<script src="scenes/04-outro.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
